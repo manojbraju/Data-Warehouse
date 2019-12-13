@@ -1,0 +1,8 @@
+Columns	Comment
+Transaction_Id	Standalone primary key for fact
+Customer_ID	Foreign key to DimCustomer
+Transaction_Date	Date of transaction and foriengn key to DimDate
+Wallet_Id	Foreign key to DimWallet
+Type	Type of transaction (Credit, Debit)
+Credit	Credit amount
+Debit	Debit amount
