@@ -1,0 +1,11 @@
+Columns	Comment
+Customer_ID	Surrogate key used to uniquely identify Customer details
+dim_Customer_ID	Unique identifier for customer
+First_Name	First name of the customer
+Last_Name	Second name of the customer
+Gender	Gender of the customer
+Birth_Date	Date of birth of customer
+Email	Email address of the customer
+Address	Resident address of the customer
+Start_Date	To handle Slowly Changing Dimension of customer details of Customers like address etc
+End_Date	To handle SCD
