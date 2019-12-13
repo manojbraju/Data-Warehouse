@@ -1,5 +1,4 @@
 Columns	Comment
-Dim_Wallet_Id	Surrogate key used to uniquely wallet details
 Wallet_Id	Unique identifier for wallet credit
 Type	Wallet credit type ('giftcard','cancellation','goodwill')
 Start_Date	Wallet credit start date
